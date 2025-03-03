@@ -1,0 +1,179 @@
+body {
+    align-items: center;
+    margin: 0;
+    background-color: #212529;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    background-color: #6832cc;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    margin: 10px;
+    gap: 15px;
+    color: whitesmoke;
+}
+
+.logo-small img {
+    width: 40px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #e8d9fc;
+    text-decoration: none;
+}
+
+.searchbar {
+    position: absolute;
+    left: 44.2%;
+}
+
+.search {
+    padding: 6px 6px 6px 15px;
+    background-color: #6030ba;
+    border: 1px solid #c4aef1;
+    border-radius: 4px;   
+}
+
+.search::placeholder {
+    color: #c4adf1;
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    margin: 10px 0px;
+    margin-top: 2px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.1;
+}
+
+p {
+    padding: 5px 0;
+    font-weight: 100;
+    color: #aeb2b6;
+    line-height: 1.7;
+}
+
+.logo-large {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.buttons span {
+    display: inline;
+}
+
+.command {
+    padding: 10px 40px 10px 10px;
+    margin: 0px 6px;
+    background-color: #343a40;
+    border: 1px solid #3e4246;
+    border-radius: 5px;
+    color: #a8afb6;
+}
+
+.code {
+    color: white;
+}
+
+.docs {
+    padding: 10px 20px;
+    background-color: #6f42c1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 0 25px;
+    font-size: 13px;
+}
+
+ul li:first-child {
+    list-style: none;
+}
+
+ul li::marker {
+    color: #889297; 
+}
+
+.bold {
+    display: inline;
+    font-weight: bold;
+}
+
+li a {
+    color: #889297;
+}
+
+.version  {
+    text-decoration: none;
+}
+
+.link-light {
+    color: #63696d;
+}
+
+.angle-brackets {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 35px 15px 0px 15px;
+    background-color: #28253e;
+    border-radius: 10px;
+    color: #6f2cf5;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: white;
+}
+
+.end p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.link {
+    padding-bottom: 80px;
+}
+
+.link a {
+    margin-bottom: 80px;
+    color: #6e9be2; 
+    text-decoration: underline;
+}
+
+.arrow {
+    display: inline;
+    color: #6e9be2; 
+}
+
+
