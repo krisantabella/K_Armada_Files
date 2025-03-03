@@ -1,0 +1,296 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2000px;
+    height: 56px;
+    margin: auto;
+    border-top: 4px solid #e7700d;
+    border-bottom: 1px solid #bbc0c5;
+}
+
+.logo {
+    width: 150px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 20px;
+    gap: 30px;
+    color: #6d757d;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #6d757d;
+    text-decoration: none;
+}
+
+form {
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    width: 708px;
+    height: 39px;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #bbc0c5;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.log-in {
+    padding: 9px 5px;
+    border: 1px solid #1B75D0;
+    border-radius: 5px;
+    color: #1B75D0;
+}
+
+.sign-up, .btn-click {
+    padding: 9px 5px;
+    background-color: #1B75D0;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #1B75D0;
+    border-radius: 5px;
+}
+
+/*.log-in, .sign-up, .btn-click {
+    padding: 9px 5px;
+    border: 1px solid #1B75D0;
+    border-radius: 5px;
+}*/
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    width: 200px;
+    padding-top: 20px;
+}
+
+aside ul li {
+    display: flex;
+    list-style-type: none;
+    padding: 8px;
+
+}
+
+aside ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+aside ul li a {
+    padding: 1px 10px;
+    font-size: 15px;
+    color: #44494d;
+    text-decoration: none;
+}
+
+.left-middle-panel {
+    padding: 25px 0px;
+}
+
+.labs {
+    height: 25px;
+    align-items: center;
+}
+
+.labs h6 {
+    font-size: 13px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    padding-bottom: 80px;
+}
+
+.top-content {
+    position: relative;
+    width: 1075px;
+    height: 325px;
+    padding: 20px;
+    background-color: #f9fafa;
+    border-radius: 10px;
+}
+
+.main-content h1 {
+    margin: 40px 20px 0px 20px;
+    font-size: 24px;
+}
+
+.top-content h1 {
+    width: 427px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.top-content h1, p {
+    height: 100px;
+}
+
+.top-content p {
+    width: 495px;
+    margin: 0px 20px;
+}
+
+.top-content a {
+    margin-left: 20px;
+}
+
+.highlight {
+    display: inline-block;
+    width: 180px;
+    background: url(/CSS/08_stack/background-image.png) no-repeat center;
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+
+.visit {
+    color: #1B75D0;
+    text-decoration: none;
+}
+
+.hero-img {
+    position: absolute;
+    right: 4.5%;
+    bottom: 0;
+    height: 290px;
+}
+
+.middle-content .text {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.for-teams, .adv-right, .api-left {
+    height: 225px;
+}
+
+.for-teams p {
+    width: 450px;
+}
+
+.middle-content p {
+    margin: 0px 20px;
+}
+
+.middle-content a {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.for-teams, .overflow-ai, .adv-right, .api-left, .work-stack {
+    position: relative;
+    margin-bottom: 25px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+} 
+
+.teams-logo, .ai-logo, .adv-logo, .api-logo, .work-logo {
+    width: 150px;
+    margin: 20px;
+}
+
+.btn-text {
+    color: #1B75D0;
+}
+
+.teams-img, .ai-img {
+    position: absolute;
+    right: 0;
+    height: 220px;
+    bottom: 0;
+}
+
+.overflow-ai {
+    background-color: #3b4045;
+    color: white;
+    height: 225px;
+}
+
+.overflow-ai p {
+    width: 510px;
+}
+
+.now-available {
+    font-weight: bold;
+}
+
+.overflow-ai a {
+    text-decoration: none;
+    background-color: #e7700d;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+ 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv-right, .api-left {
+    width: 500px;
+    margin: 0px;
+}
+
+.api-logo {
+    height: 35.52px;
+}
+
+.work-stack {
+    height: 190px;
+    position: relative;
+    margin: 0;
+}
+
+.work-logo {
+    height: 30px;
+}
+
+.work-stack p {
+    width: 450px;
+    height: 75px;
+}
+
+.careers-img {
+    position: absolute;
+    right: 1%;
+    height: 300px;
+    bottom: 0;
+}
