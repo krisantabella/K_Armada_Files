@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <!--About Me-->
+            <section>
+                <h2>About Me</h2>
+                <p>Hello! I am a 4th-year Bachelor of Science in Computer Engineering student at Bohol Island State University - Main Campus. Currently, I am an intern at Armada Logics Inc., gaining hands-on experience in web development and coding.</p>
+                <img src="Mapalo.jpg" alt="Formal picture of Krissan Mapalo">
+            </section>
+
+            <!--Projects-->
+            <section>
+                <h2>My Projects</h2>
+                <table>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>FablabAR++</td>
+                        <td>An augmented reality application for Fablab-Bohol</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Water Level Indicator</td>
+                        <td>A device to monitor and alert water levels in tanks or reservoirs</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Hardware Exploration AR</td>
+                        <td>An augmented reality application for interactive exploration of computer hardware components</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>AMS - LibraScan</td>
+                        <td>An attendace tracking system for BISU Main Campus Library</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Pothole Detection System</td>
+                        <td>Identifies and locates potholes in real-time for efficient road monitoring and maintenance</td>
+                        <td>2025</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--Contact-->
+            <section>
+                <h2>Contact Me</h2>
+                <form>
+                    <p><label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required></p>
+                    <p><label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required></p>
+
+                    <fieldset>
+                        <legend>How did you hear about this portfolio?</legend>
+                        <p><label><input type="radio" name="portfolio" value="Friend">Friend</label></p>
+                        <p><label><input type="radio" name="portfolio" value="Social Media">Social Media</label></p>
+                        <p><label><input type="radio" name="portfolio" value="Search Engine">Search Engine</label></p>
+                        <p><label><input type="radio" name="portfolio" value="Other">Other</label></p>
+                    </fieldset><p></p>
+
+                    <fieldset>
+                        <legend>Skills/Interests</legend>
+                        <p><label><input type="checkbox" name="skills" value="Web Development">Web Development</label></p>
+                        <p><label><input type="checkbox" name="skills" value="Graphic Design">Graphic Design</label></p>
+                        <p><label><input type="checkbox" name="skills" value="Photography">Photography</label></p>
+                    </fieldset><p></p>
+
+                    <p><label  for="comments">Comments or Messages:</label></p>
+                    <p><textarea id="comments" name="comments" rows="4" cols="50"></textarea></p>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Krissan Belle B. Mapalo 2025</p>
+        </footer>
+    </body>
+</html>
+
+<!--Time Consume: 1hr 20mins-->
