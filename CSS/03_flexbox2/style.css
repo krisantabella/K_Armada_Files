@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    background-color: #f0f0f0;
+    border-left: 2px solid #dedada;
+    border-right: 2px solid #dedada;
+}
+
+header {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+  
+.container {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+  
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    padding: 10px;
+    background-color: lightgrey;
+}
+  
+.left-panel .box {
+    width: 250px;
+    padding: 20px;
+    background-color: lightcoral;
+    font-size: 15px;
+    text-align: left;
+}
+  
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 130px;
+}
+  
+.top-bar, .main-content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.top-bar .box, .main-content .box {
+    width: 50px; 
+    height: 25px;
+}
+  
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+  
+footer {
+    padding: 20px;
+    background-color: tomato;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+/*Time Consumed: 2hrs 50mins*/
+
+/*I got stuck figuring out how to adjust the margins and 
+paddings of the boxes properly, as well as how to place the 
+box letters A-C inside a larger box, but I eventually found 
+the right approach to make it work.*/
