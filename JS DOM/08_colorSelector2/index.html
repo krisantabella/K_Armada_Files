@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Color Selector</h1>
+    <p>Click a color to change the background and highlight the selected color.</p>
+    <div class="container">
+        <button class="color-button" style="background: red;" data-color="red">Red</button>
+        <button class="color-button" style="background: blue;" data-color="blue">Blue</button>
+        <button class="color-button" style="background: green;" data-color="green">Green</button>
+        <button class="color-button" style="background: orange;" data-color="orange">Orange</button>
+        <button class="color-button" style="background: purple;" data-color="purple">Purple</button>
+        <button class="color-button" style="background: yellow; color: black;" data-color="yellow">Yellow</button>
+    </div>
+    <h3>Selected Color: <span id="selected-color">None</span></h3>
+    <script src="script.js"></script>
+</body>
+</html>
