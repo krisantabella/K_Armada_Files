@@ -1,0 +1,60 @@
+body {
+    background-color: #faf8f8;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.character-base {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    right: 100px;
+}
+
+.character-base img {
+    position: absolute;
+    width: 200px;
+    height: 185px;
+}
+
+#helmet { 
+    top: 0;
+}
+
+#armor {
+    top: 120px;
+}
+
+#leggings {
+    top: 260px;
+}
+
+#boots {
+    top: 380px; 
+}
+
+.selection-menu img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background: #c4bdbd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.selection-menu img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.selected {
+    border: 3px solid rgb(0, 0, 0);
+}
