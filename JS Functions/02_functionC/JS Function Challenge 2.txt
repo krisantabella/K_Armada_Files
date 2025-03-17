@@ -1,0 +1,77 @@
+JS Function Challenge 2
+
+Challenge 1
+
+𝗧-𝗱𝗶𝗮𝗴𝗿𝗮𝗺:
+𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲	 					𝗩𝗮𝗹𝘂𝗲
+result (before)         |   ""
+i (outer loop)          |   1 - 2 - 3
+j (inner loop)          |   1- 1,2 - 1, 2, 3
+result (after)          |   "1 \n1 2 \ n1 2 3 \n"
+
+𝗢𝘂𝘁𝗽𝘂𝘁:
+1 
+1 2 
+1 2 3 
+
+Challenge 2
+
+𝗧-𝗱𝗶𝗮𝗴𝗿𝗮𝗺:
+𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲	 					𝗩𝗮𝗹𝘂𝗲
+numbers (before)            |   [10, 20, 30, 40]
+first                       |   10 (removed using shift())
+last                        |   40 (removed using pop())
+arr after shift() & pop()   |   [20, 30]
+arr after unshift(40)       |   [40, 20, 30]
+arr after push(10)          |   [40, 20, 30, 10]
+numbers (final)             |   [40, 20, 30, 10]
+
+𝗢𝘂𝘁𝗽𝘂𝘁:
+[ 40, 20, 30, 10 ]
+[ 40, 20, 30, 10 ]
+
+Challenge 3
+
+𝗧-𝗱𝗶𝗮𝗴𝗿𝗮𝗺:
+𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲	 					𝗩𝗮𝗹𝘂𝗲
+scores (before)         |   [85, 45, 90, 60]
+passing (before)        |	[]
+grade = 85	            |   Added to the end - [85]
+grade = 45	            |   Added to the beginning - [45, 85]
+grade = 90	            |   Added to the end - [45, 85, 90]
+grade = 60	            |   Added to the beginning - [60, 45, 85, 90]
+return value	        |   [60, 45, 85, 90]
+
+𝗢𝘂𝘁𝗽𝘂𝘁:
+[ 60, 45, 85, 90 ]
+
+Challenge 4
+
+𝗧-𝗱𝗶𝗮𝗴𝗿𝗮𝗺:
+𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲	 					𝗩𝗮𝗹𝘂𝗲
+taskList (before)	                |   [ { id: 1, completed: false }, { id: 2, completed: true } ]
+task = { id: 1, completed: false }  |	completed becomes true
+task = { id: 2, completed: true }   |   completed becomes false
+taskList (after)	                |   [ { id: 1, completed: true }, { id: 2, completed: false } ]
+return value	                    |   Same as taskList (because objects are modified directly)
+
+𝗢𝘂𝘁𝗽𝘂𝘁:
+[ { id: 1, completed: true }, { id: 2, completed: false } ]
+[ { id: 1, completed: true }, { id: 2, completed: false } ]
+
+Challenge 5
+
+𝗧-𝗱𝗶𝗮𝗴𝗿𝗮𝗺:
+𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲	 					𝗩𝗮𝗹𝘂𝗲
+data (before)	            |   [5, 12, 8, 130, 44]
+target (first call)	        |   12
+i = 0 (data[0] = 5)	        |   No match, continue
+i = 1 (data[1] = 12)	    |   Match! Return "Found at index 1"
+return value (first call)	|   "Found at index 1"
+target (second call)	    |   100
+i = 0 to i = 4	            |   No match in the array
+return value (second call)	|   "Not found"
+
+𝗢𝘂𝘁𝗽𝘂𝘁:
+Found at index 1
+Not found
