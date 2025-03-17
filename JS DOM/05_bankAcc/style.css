@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.account-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+button {
+    padding: 10px 15px;
+    background: none; 
+    border: 1px solid rgb(162, 159, 159);
+    border-radius: 2px;
+    font-size: 16px;
+    color: black; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ececec;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
