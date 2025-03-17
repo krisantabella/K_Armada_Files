@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Fireflies</title>
+    <style>
+        .fireflies-container {
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+        .firefly {
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            cursor: pointer;
+            transition: transform 0.3s, visibility 0.3s;
+            animation: tilt 1s infinite alternate ease-in-out;
+        }
+
+        @keyframes tilt {
+            from {
+                transform: rotate(-10deg) scale(1);
+            }
+            to {
+                transform: rotate(10deg) scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Catch the Fireflies!</h1>
+    <div class="fireflies-container">
+        <img src="firefly.png" class="firefly">
+        <img src="firefly.png" class="firefly">
+        <img src="firefly.png" class="firefly">
+        <img src="firefly.png" class="firefly">
+    </div>
+
+    <script>
+        // Select all fireflies
+        let fireflies = document.querySelectorAll(".firefly");
+
+        // Attach event listener to each firefly
+        fireflies.forEach(firefly => {
+            firefly.addEventListener("click", function() {
+                this.style.animation = "none"; // Stop fluttering
+                this.style.transform = "scale(0.5) rotate(0deg)"; // Shrink firefly
+                setTimeout(() => {
+                    this.style.visibility = "hidden"; // Disappear
+                    setTimeout(() => {
+                        this.style.visibility = "visible";
+                        this.style.transform = "scale(1) rotate(-10deg)"; // Return to normal size with tilt
+                        this.style.animation = "tilt 1s infinite alternate ease-in-out"; // Resume fluttering
+                    }, 1000);
+                }, 300);
+            });
+        });
+    </script>
+</body>
+</html>
